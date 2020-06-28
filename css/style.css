@@ -192,7 +192,7 @@ body {
     font-weight: 400;
     margin-left: 1rem;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     color: #5e0202; }
     .resources__link:hover {
       text-decoration: underline;
@@ -232,6 +232,6 @@ h5 {
   text-transform: uppercase; }
 
 p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   padding: 1rem;
   line-height: 1.5; }
