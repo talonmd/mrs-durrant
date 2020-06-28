@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&&family=Satisfy&display=swap");
 *,
 *::after,
 *::before {
@@ -40,8 +40,8 @@ body {
   .header__headline {
     text-align: center; }
   .header__subheadline {
+    font-family: "Satisfy", cursive;
     text-transform: none;
-    font-style: italic;
     font-size: 2.5rem;
     text-align: center;
     padding-bottom: 2rem;
@@ -192,14 +192,14 @@ body {
     font-weight: 400;
     margin-left: 1rem;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     color: #5e0202; }
     .resources__link:hover {
       text-decoration: underline;
       color: #ec173a; }
 
 body {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: "Titillium Web", sans-serif; }
 
 h1 {
@@ -232,6 +232,6 @@ h5 {
   text-transform: uppercase; }
 
 p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   padding: 1rem;
   line-height: 1.5; }
