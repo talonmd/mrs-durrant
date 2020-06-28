@@ -1,0 +1,46 @@
+html {
+  background-color: lighten($color-white-dark, 5%);
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 90vh;
+  background-color: $color-white-dark;
+  padding: 3rem 1rem 1rem 1rem;
+}
+
+.main {
+  display: flex;
+  padding: 2rem;
+
+  @media only screen and (max-width: 700px) {
+    flex-direction: column;
+  }
+
+  @media only screen and (max-width: 400px) {
+    padding: 0.5rem;
+  }
+
+  &__left {
+    padding: 2rem;
+    width: 80%;
+    border-right: 1px solid $color-grey-very-light;
+    border-left: 1px solid $color-grey-very-light;
+
+    @media only screen and (max-width: 700px) {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+  &__right {
+    width: 20%;
+    padding: 2rem;
+    border-right: 1px solid $color-grey-very-light;
+
+    @media only screen and (max-width: 700px) {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+}

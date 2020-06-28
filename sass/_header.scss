@@ -1,0 +1,25 @@
+.header {
+  padding: 0 2rem;
+  &__headline {
+    text-align: center;
+  }
+  &__subheadline {
+    text-transform: none;
+    font-style: italic;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-weight: 200;
+  }
+  &__hero-div {
+    padding: 1rem 2rem;
+    border-top: 1rem solid $color-red;
+    border-bottom: 1rem solid $color-red;
+  }
+  &__hero-pattern {
+    height: 12rem;
+    background: linear-gradient(135deg, #eceddc 25%, transparent 25%) -50px 0, linear-gradient(225deg, #eceddc 25%, transparent 25%) -50px 0, linear-gradient(315deg, #eceddc 25%, transparent 25%), linear-gradient(45deg, #eceddc 25%, transparent 25%);
+    background-size: 20px 20px;
+    background-color: $color-red-dark;
+  }
+}

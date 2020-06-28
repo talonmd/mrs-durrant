@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap");
+
+// font-family: 'Titillium Web', sans-serif;
+
+body {
+  font-size: 1.2rem;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 6.5rem;
+  @media only screen and (max-width: 330px) {
+    font-size: 5rem;
+  }
+}
+
+h2 {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 1rem 0;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.4rem;
+  padding: 1rem;
+  line-height: 1.5;
+}

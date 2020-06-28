@@ -1,0 +1,28 @@
+.footer {
+  padding: 0 2rem;
+  &__hero-div {
+    margin-top: 1rem;
+    padding-top: 5rem;
+    border-top: 1rem solid $color-red;
+  }
+  &__hero-pattern {
+    height: 15rem;
+    margin: 0 -3rem;
+    background-color: #026873;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.07) 50%, transparent 50%), linear-gradient(90deg, rgba(255, 255, 255, 0.13) 50%, transparent 50%), linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, 0.17) 50%), linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, 0.19) 50%);
+    background-size: 13px, 29px, 37px, 53px;
+  }
+  &__text {
+    font-size: 1.2rem;
+    text-align: center;
+    color: $color-grey-light-1;
+  }
+  &__link {
+    text-decoration: none;
+    color: $color-grey-light-1;
+    &:hover {
+      text-decoration: underline;
+      color: darken($color-grey-light-1, 20%);
+    }
+  }
+}
