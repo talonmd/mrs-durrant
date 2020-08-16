@@ -59,3 +59,18 @@
     }
   }
 }
+
+.home {
+  &__link {
+    font-weight: 400;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: $color-red-dark;
+    &:hover {
+      text-decoration: underline;
+      color: $color-red;
+    }
+  }
+}

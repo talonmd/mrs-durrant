@@ -21,5 +21,22 @@
     background: linear-gradient(135deg, #eceddc 25%, transparent 25%) -50px 0, linear-gradient(225deg, #eceddc 25%, transparent 25%) -50px 0, linear-gradient(315deg, #eceddc 25%, transparent 25%), linear-gradient(45deg, #eceddc 25%, transparent 25%);
     background-size: 20px 20px;
     background-color: $color-red-dark;
+    &--1 {
+      height: 15rem;
+      background-image: url(../img/give-me-liberty-large.jpg);
+      background-size: cover;
+    }
+    &--2 {
+      height: 15rem;
+      background-image: url(../img/reading-challenge-large.jpg);
+      background-size: cover;
+      background-position: bottom;
+    }
+    &--3 {
+      height: 15rem;
+      background-image: url(../img/math-facts-ladder-large.jpg);
+      background-size: cover;
+      background-position: center;
+    }
   }
 }
