@@ -24,9 +24,13 @@ body {
 
   &__left {
     padding: 2rem;
-    width: 80%;
+    width: 75%;
     border-right: 1px solid $color-grey-very-light;
     border-left: 1px solid $color-grey-very-light;
+
+    &--adjusted {
+      width: 100%;
+    }
 
     @media only screen and (max-width: 700px) {
       width: 90%;
@@ -34,7 +38,11 @@ body {
     }
   }
   &__right {
-    width: 20%;
+    p {
+      font-size: 1.6rem;
+    }
+
+    width: 25%;
     padding: 2rem;
     border-right: 1px solid $color-grey-very-light;
 
