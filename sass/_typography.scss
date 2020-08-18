@@ -32,13 +32,14 @@ h3 {
 
 h4 {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  margin: 2.2rem 1rem 1.5rem 1rem;
   text-transform: uppercase;
 }
 
 h5 {
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 
@@ -46,4 +47,14 @@ p {
   font-size: 1.8rem;
   padding: 1rem;
   line-height: 1.5;
+}
+
+a {
+  color: lighten($color-red-dark, 10%);
+  text-decoration: none;
+  font-size: 1.8rem;
+  &:hover {
+    color: $color-red;
+    text-decoration: underline;
+  }
 }
