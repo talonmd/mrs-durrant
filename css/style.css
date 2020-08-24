@@ -33,7 +33,7 @@ ol {
   .footer__hero-div {
     margin-top: 1rem;
     padding-top: 5rem;
-    border-top: 1rem solid #ec173a; }
+    border-top: 1rem solid #910c22; }
   .footer__hero-pattern {
     height: 15rem;
     margin: 0 -3rem;
@@ -65,8 +65,8 @@ ol {
     font-weight: 200; }
   .header__hero-div {
     padding: 1rem 2rem;
-    border-top: 1rem solid #ec173a;
-    border-bottom: 1rem solid #ec173a; }
+    border-top: 1rem solid #910c22;
+    border-bottom: 1rem solid #910c22; }
   .header__hero-pattern {
     height: 12rem;
     background: linear-gradient(135deg, #eceddc 25%, transparent 25%) -50px 0, linear-gradient(225deg, #eceddc 25%, transparent 25%) -50px 0, linear-gradient(315deg, #eceddc 25%, transparent 25%), linear-gradient(45deg, #eceddc 25%, transparent 25%);
