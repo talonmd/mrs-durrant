@@ -69,9 +69,10 @@ ol {
     border-bottom: 1rem solid #910c22; }
   .header__hero-pattern {
     height: 12rem;
-    background: linear-gradient(135deg, #eceddc 25%, transparent 25%) -50px 0, linear-gradient(225deg, #eceddc 25%, transparent 25%) -50px 0, linear-gradient(315deg, #eceddc 25%, transparent 25%), linear-gradient(45deg, #eceddc 25%, transparent 25%);
-    background-size: 20px 20px;
-    background-color: #5e0202; }
+    height: 15rem;
+    background-image: url(../img/hero-image.jpg);
+    background-size: cover;
+    background-position: bottom; }
     .header__hero-pattern--1 {
       height: 15rem;
       background-image: url(../img/give-me-liberty-large.jpg);
