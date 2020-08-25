@@ -3,7 +3,7 @@
   &__hero-div {
     margin-top: 1rem;
     padding-top: 5rem;
-    border-top: 1rem solid $color-red;
+    border-top: 1rem solid darken($color-red, 20%);
   }
   &__hero-pattern {
     height: 15rem;

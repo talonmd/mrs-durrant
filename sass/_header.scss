@@ -13,8 +13,8 @@
   }
   &__hero-div {
     padding: 1rem 2rem;
-    border-top: 1rem solid $color-red;
-    border-bottom: 1rem solid $color-red;
+    border-top: 1rem solid darken($color-red, 20%);
+    border-bottom: 1rem solid darken($color-red, 20%);
   }
   &__hero-pattern {
     height: 12rem;
