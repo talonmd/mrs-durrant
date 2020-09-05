@@ -28,6 +28,9 @@ ol {
 .topmargin {
   margin-top: 3rem; }
 
+.bolder {
+  font-weight: 300; }
+
 .footer {
   padding: 0 2rem; }
   .footer__hero-div {
@@ -68,7 +71,6 @@ ol {
     border-top: 1rem solid #910c22;
     border-bottom: 1rem solid #910c22; }
   .header__hero-pattern {
-    height: 12rem;
     height: 15rem;
     background-image: url(../img/hero-image.jpg);
     background-size: cover;
