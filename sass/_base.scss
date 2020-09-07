@@ -19,10 +19,16 @@ ul {
   margin-left: 7rem;
   font-size: 1.8rem;
   line-height: 2;
+  @media only screen and (max-width: 330px) {
+    margin-left: 2rem;
+  }
 }
 
 ol {
   margin-left: 7rem;
   font-size: 1.5rem;
   line-height: 2;
+  @media only screen and (max-width: 330px) {
+    margin-left: 2rem;
+  }
 }

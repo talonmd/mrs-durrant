@@ -6,8 +6,17 @@
   margin-top: 3rem;
 }
 
+.smaller-margin {
+  margin-top: 0;
+}
+
 .bolder {
   font-weight: 300;
+}
+
+.two-columns {
+  columns: 2;
+  padding-top: 2rem;
 }
 
 .video-embed {
