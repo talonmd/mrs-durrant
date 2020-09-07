@@ -67,10 +67,14 @@
   }
   &--right {
     float: right;
+    @media only screen and (max-width: 600px) {
+      float: left;
+    }
   }
 
   @media only screen and (max-width: 600px) {
-    max-width: 90%;
+    max-width: 95%;
+    margin-bottom: 2rem;
   }
   &__image {
     width: 90%;

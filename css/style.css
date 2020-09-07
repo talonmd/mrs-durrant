@@ -17,17 +17,17 @@ ul {
   margin-left: 7rem;
   font-size: 1.8rem;
   line-height: 2; }
-  @media only screen and (max-width: 330px) {
+  @media only screen and (max-width: 600px) {
     ul {
-      margin-left: 2rem; } }
+      margin-left: 3rem; } }
 
 ol {
   margin-left: 7rem;
   font-size: 1.5rem;
   line-height: 2; }
-  @media only screen and (max-width: 330px) {
+  @media only screen and (max-width: 600px) {
     ol {
-      margin-left: 2rem; } }
+      margin-left: 3rem; } }
 
 .smallertext {
   font-size: 1.6rem; }
@@ -44,6 +44,9 @@ ol {
 .two-columns {
   columns: 2;
   padding-top: 2rem; }
+  @media only screen and (max-width: 700px) {
+    .two-columns {
+      columns: 1; } }
 
 .video-embed {
   width: 40%; }
@@ -206,9 +209,13 @@ body {
     float: left; }
   .figure--right {
     float: right; }
+    @media only screen and (max-width: 600px) {
+      .figure--right {
+        float: left; } }
   @media only screen and (max-width: 600px) {
     .figure {
-      max-width: 90%; } }
+      max-width: 95%;
+      margin-bottom: 2rem; } }
   .figure__image {
     width: 90%;
     margin: 0 5%; }
@@ -258,6 +265,9 @@ body {
     @media only screen and (max-width: 700px) {
       .resources__list {
         column-count: 2; } }
+    @media only screen and (max-width: 500px) {
+      .resources__list {
+        column-count: 1; } }
   .resources__item {
     font-weight: 700;
     padding: 0.5rem 0; }
