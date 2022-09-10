@@ -22,6 +22,6 @@
     "mem": ">=4.0.0",
     "node-sass": "^7.0.3",
     "npm-run-all": "^4.1.1",
-    "postcss-cli": "^4.1.1"
+    "postcss-cli": "^10.0.0"
   }
 }
