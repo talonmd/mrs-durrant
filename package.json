@@ -16,11 +16,12 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^7.1.4",
+    "braces": ">=2.3.1",
     "concat": "^1.0.3",
-    "node-sass": "^4.5.3",
-    "npm-run-all": "^4.1.1",
-    "postcss-cli": "^4.1.1",
+    "live-server": "^1.2.2",
     "mem": ">=4.0.0",
-    "braces": ">=2.3.1"
+    "node-sass": "^7.0.3",
+    "npm-run-all": "^4.1.1",
+    "postcss-cli": "^4.1.1"
   }
 }
