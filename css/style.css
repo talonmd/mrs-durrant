@@ -86,7 +86,7 @@ ol {
   .header__headline {
     text-align: center; }
   .header__subheadline {
-    font-family: "Satisfy", cursive;
+    font-family: 'Satisfy', cursive;
     text-transform: none;
     font-size: 2.5rem;
     text-align: center;
@@ -112,7 +112,7 @@ ol {
       background-position: bottom; }
     .header__hero-pattern--3 {
       height: 15rem;
-      background-image: url(../img/math-facts-ladder-large.jpg);
+      background-image: url(../img/math-facts-large.jpg);
       background-size: cover;
       background-position: center; }
     .header__hero-pattern--4 {
